@@ -37,11 +37,10 @@ const Header = () => {
             />
             <span className="text-sm font-normal">Giorgi Gelashvili</span>
             <img
-              className="rounded-lg ml-ts w-4 h-4 bg-black"
+              className="rounded-lg ml-ts  w-4 h-4 bg-black"
               alt="signout icon"
               src={Signout}
             />
-            
           </div>
         </div>
       </div>

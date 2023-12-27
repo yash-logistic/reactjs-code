@@ -202,23 +202,27 @@ const Content = () => {
         <div className="self-stretch flex flex-row items-center justify-between">
           <div className="shrink-0 flex flex-row items-center justify-start gap-[4px]">
             <div className="relative font-black">Monthly `Overview</div>
-            <div className="relative text-xs font-medium text-black-80">
+            <div className="relative mt-1 text-xs font-medium text-black-80">
               Last 6 month
             </div>
           </div>
           <div className="w-[226px] shrink-0 flex flex-row items-center justify-end gap-[8px] text-3xs text-grey-60 mb-5">
             <div className="shrink-0 flex flex-row items-start justify-start gap-[4px]">
               <div className="shrink-0 flex flex-row items-center justify-start py-0 px-2 gap-[4px]">
-                <div className="relative rounded-[50%] bg-grey-20 w-1 h-1" />
-                <div className="relative">Income</div>
+                <div className="relative rounded-[50%] bg-grey-20 w-1 mt-5 h-1" />
+                <div className="relative mt-5  text-ls font-normal ">
+                  Income
+                </div>
               </div>
               <div className=" flex flex-row items-center justify-start py-0 px-2 gap-[4px]">
-                <div className="relative rounded-[50%] bg-nightblue-80 w-1 h-1" />
-                <div className="relative">Completed</div>
+                <div className="relative rounded-[50%] bg-nightblue-80 w-1 mt-5 h-1" />
+                <div className="relative mt-5 text-ls font-normal">
+                  Completed
+                </div>
               </div>
             </div>
             <img
-              className=" rounded-xl w-swid   bg-white mt-3 ml-5"
+              className=" rounded-xl w-swid   bg-white mt-4 ml-5"
               alt="icon"
               src={Sort}
             />

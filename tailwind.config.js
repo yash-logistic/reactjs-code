@@ -19,7 +19,7 @@ module.exports = {
       width: {
         'cuswid': '560px',
         'gw':'32px',
-        'swid':'60px',
+        'swid':'40px',
         'cwid':'409px'
       },
       height: {

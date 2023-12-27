@@ -130,7 +130,7 @@ const Content = () => {
                 </div>
               </div>
 
-              <div className="rounded-2xl bg-white flex flex-col items-start justify-center py-6 px-4 gap-[12px] border-[1px] border-solid border-grey-10">
+              <div className="rounded-2xl bg-white flex flex-col items-start justify-center p-8  gap-[12px] border-[1px] border-solid border-grey-10">
                 <div className="flex flex-row items-center justify-start gap-[8px]">
                   <img
                     className="relative rounded-xl w-6 h-6 "

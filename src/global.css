@@ -8,3 +8,19 @@
 * {
   font-family: "Satoshi-Variable";
 }
+
+.bg-grey-10 {
+  background-color: #f0f0f0;
+} 
+.bg-nightblue-80 {
+  background-color: #627BE8;
+} 
+.text-white {
+  color: #ffffff;
+} 
+.text-black-80 {
+  color: #333333;
+}
+.text-grey-60 {
+  color: #666666;
+}

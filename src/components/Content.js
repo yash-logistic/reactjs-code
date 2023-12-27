@@ -199,14 +199,14 @@ const Content = () => {
       </div>
 
       <div className="rounded-2xl bg-white mt-2 ml-8 shadow-[0px_4px_16px_rgba(0,_0,_0,_0.04)] w-[526px] flex flex-col items-center justify-start p-4 box-border gap-[12px]">
-        <div className="self-stretch flex flex-row items-center justify-between">
+        <div className=" flex flex-row items-center justify-between">
           <div className="shrink-0 flex flex-row items-center justify-start gap-[4px]">
-            <div className="relative font-black">Monthly `Overview</div>
+            <div className="ml-tp  font-black">Monthly `Overview</div>
             <div className="relative mt-1 text-xs font-medium text-black-80">
               Last 6 month
             </div>
           </div>
-          <div className="w-[226px] shrink-0 flex flex-row items-center justify-end gap-[8px] text-3xs text-grey-60 mb-5">
+          <div className="w-[226px] shrink-0 flex flex-row items-center justify-end gap-[8px] ml-16 text-3xs text-grey-60 mb-5">
             <div className="shrink-0 flex flex-row items-start justify-start gap-[4px]">
               <div className="shrink-0 flex flex-row items-center justify-start py-0 px-2 gap-[4px]">
                 <div className="relative rounded-[50%] bg-grey-20 w-1 mt-5 h-1" />

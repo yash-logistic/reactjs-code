@@ -6,7 +6,7 @@ import Signout from "../images/Signout.jpg";
 const Header = () => {
   return (
     <>
-      <div className="bg-background w-full flex flex-col items-start justify-start text-left text-sm text-black-100 font-small-body-medium">
+      <div className="bg-background w-full flex flex-col items-start justify-start text-left text-sm text-black-100 ml-4  ">
         <div className="rounded-t-none rounded-b-13xl bg-white w-full flex flex-row items-center justify-between py-2 pr-4 pl-4 box-border">
           <div className="flex flex-row items-center justify-start py-4 px-4 gap-4">
             <img

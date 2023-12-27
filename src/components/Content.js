@@ -22,7 +22,6 @@ const Content = () => {
     <>
       <div className="w-[345] ml-14 flex flex-col items-start">
         <span className="text-sm font-black">Jobs Overview</span>
-
         <div className="rounded-xl bg-white box-border w-28 h-8 flex flex-row items-center justify-end text-3xs border-[1px] border-solid border-grey-20 ml-at mt-tp">
           <div className="relative">30 Days</div>
           <img
@@ -31,7 +30,6 @@ const Content = () => {
             src={Arrow}
           />
         </div>
-
         <div className="flex items-center justify-center gap-4">
           <div className="rounded-3xl flex items-center justify-center py-2 px-4 gap-[4px] border-[1px] border-solid border-grey-20">
             <img

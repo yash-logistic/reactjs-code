@@ -61,20 +61,20 @@ const Content = () => {
           </div>
 
           <div className="flex items-start justify-start gap-[8px]">
-            <div className="bg-black border rounded-2xl w-52 h-64 mt-2">
+            <div className="bg-black border rounded-2xl w-80 h-64 mt-2">
               <div className="flex flex-row items-center justify-start gap-[8px]">
                 <img
-                  className="relative rounded-xl w-8 h-8 overflow-hidden shrink-0 bg-white mt-6 ml-5"
+                  className="ml-20 rounded-xl w-8 h-8 overflow-hidden shrink-0 bg-white mt-6"
                   alt="icon"
                   src={Jobs}
                 />
-                <span className="relative text-white mt-5">Received Jobs</span>
+                <span className="relative text-white mt-5 ">Received Jobs</span>
               </div>
 
               <div className="flex flex-col items-start justify-center">
                 <div className="flex-1 flex items-center justify-between w-full ">
                   <div className="relative">
-                    <div className="ml-16 font-black text-white text-lr">
+                    <div className="ml-28 font-black text-white text-center text-lr">
                       300
                     </div>
                     <ul className="m-0 text-ls pl-4 list-disc">

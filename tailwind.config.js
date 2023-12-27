@@ -14,6 +14,7 @@ module.exports = {
         tp:'-30px',
         88:'415px',
         ts:'-20px',
+        gm:'-20px',
         lc:'770px'
       },
       width: {

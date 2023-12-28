@@ -35,9 +35,9 @@ const Header = () => {
               alt="rectangle icon"
               src={Rectangle}
             />
-            <span className="text-sm ml-gm font-normal">Giorgi Gelashvili</span>
+            <span className="text-sm ml-gm font-normal ">Giorgi Gelashvili</span>
             <img
-              className="rounded-lg ml-ts   w-4 h-4 bg-black"
+              className="rounded-lg ml-ts mr-12 mt-4 w-4 h-4 bg-black"
               alt="signout icon"
               src={Signout}
             />

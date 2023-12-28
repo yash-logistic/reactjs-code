@@ -268,12 +268,12 @@ const Content = () => {
         <div className="ml-28">
                   
         <div className="flex-1 flex flex-col items-start justify-start gap-[16px]">
-          <div className="self-stretch flex flex-col items-start justify-start gap-[16px]">
-            <div className="self-stretch flex flex-row items-start justify-between">
-              <div className="w-[408.5px] flex flex-col items-start justify-start gap-[12px]">
-                <div className="relative font-black">People `Overview</div>
-                <div className="flex flex-row items-start justify-start gap-[4px] text-xs">
-                  <div className="rounded-3xl shrink-0 flex flex-row items-center justify-center py-2 px-4 gap-[4px] border-[1px] border-solid border-grey-20">
+          <div className="self-stretch flex flex-col items-start justify-start gap-[16px] ">
+            <div className="self-stretch flex flex-row items-start justify-between ">
+              <div className="w-[408.5px]  flex flex-col items-start justify-start  gap-[12px]">
+                <div className="relative font-black ">People `Overview</div>
+                <div className="flex flex-row items-start justify-start gap-[4px] text-xs ">
+                  <div className="rounded-3xl shrink-0 flex flex-row items-center  justify-center py-2 px-4 gap-[4px] border-[1px] border-solid border-grey-20">
                     <img
                       className="relative rounded-[50%] w-4 h-4 object-cover"
                       alt="west icon"
@@ -301,10 +301,10 @@ const Content = () => {
               </div>
             </div>
             <div className="flex flex-row items-start justify-start gap-[16px] text-black-80">
-              <div className="rounded-2xl bg-white shrink-0 flex flex-col items-start justify-start pt-3 px-4 pb-4 gap-[16px]">
+              <div className="rounded-2xl bg-white shrink-0 flex flex-col items-start  rounded-lg border border-gray-300 justify-start pt-3 px-4 pb-4 gap-[16px]">
                 <div className="self-stretch shrink-0 flex flex-row items-start justify-between py-0 pr-0 pl-2">
                   <div className="shrink-0 flex flex-row items-center justify-start">
-                    <div className="relative leading-[16px] font-medium">
+                    <div className="relative leading-[16px]  font-medium">
                       Employee of the Week
                     </div>
                   </div>
@@ -580,7 +580,7 @@ const Content = () => {
                   <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
                     <b className="relative">Parking</b>
                   </div>
-                </div>
+                </div> 
               </div>
               <div className="w-[301px] shrink-0 flex flex-row items-center justify-end gap-[23px] text-grey-100">
                 <div className="shrink-0 flex flex-row items-start justify-start">

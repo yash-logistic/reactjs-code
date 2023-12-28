@@ -9,6 +9,9 @@ module.exports = {
         ls:'10px',
         lr:'32px'
       },
+      backgroundColor: {
+        'cbg': '#FFFAE8', 
+      },
       spacing: {
         at: '480px',
         tp:'-30px',

@@ -352,8 +352,8 @@ const Content = () => {
                     <div className="self-stretch rounded-lg border border-gray-300 bg-background flex flex-col items-center justify-center pt-2 px-1 pb-0 gap-[12px]">
                       <div className="self-stretch flex flex-col items-center justify-start py-0 px-1 gap-[8px]">
                         <div className="w-32 flex flex-row items-start justify-between py-0 pr-0 pl-1 box-border">
-                          <div className="relative font-medium">Total Jobs</div>
-                          <div className="relative text-sm leading-[16px] font-medium text-grey-100">
+                          <div className="relative font-medium text-xs">Total Jobs</div>
+                          <div className="relative text-sm  font-medium text-grey-100">
                             50
                           </div>
                         </div>
@@ -361,7 +361,7 @@ const Content = () => {
                           <div className="self-stretch flex flex-row items-center justify-between">
                             <div className="flex-1 shrink-0 flex flex-row items-center justify-start">
                               <div className="relative">
-                                <ul className="m-0 font-inherit text-inherit pl-[13px]">
+                                <ul className="m-0 font-normal text-ls pl-[13px]">
                                   <li>Parking</li>
                                 </ul>
                               </div>
@@ -371,7 +371,7 @@ const Content = () => {
                           <div className="self-stretch flex flex-row items-center justify-start">
                             <div className="flex-1 shrink-0 flex flex-row items-center justify-start">
                               <div className="relative">
-                                <ul className="m-0 font-inherit text-inherit pl-[13px]">
+                                <ul className="m-0 font-normal text-ls pl-[13px]">
                                   <li>Flagging</li>
                                 </ul>
                               </div>
@@ -418,8 +418,8 @@ const Content = () => {
                       </div>
                     </div>
                     <div className="self-stretch shrink-0 flex flex-col items-center justify-between text-grey-100">
-                      <div className="relative font-medium">Jobs Received</div>
-                      <span className="relative text-5xl text-black-80">50</span>
+                      <div className="relative font-medium text-xs">Jobs Received</div>
+                      <span className="relative text-2xl font-bold text-black-80">50</span>
                     </div>
                   </div>
                   <div className="rounded-2xl bg-white shrink-0 flex flex-row items-start justify-center p-4 gap-[16px] border-[1px] border-solid border-grey-10">
@@ -439,8 +439,8 @@ const Content = () => {
                       </div>
                     </div>
                     <div className="self-stretch shrink-0 flex flex-col items-center justify-between text-grey-100">
-                      <div className="relative font-medium">Jobs Received</div>
-                      <span className="relative text-5xl text-black-80">32</span>
+                      <div className="relative font-medium text-xs">Jobs Received</div>
+                      <span className="relative text-2xl font-bold text-black-80">32</span>
                     </div>
                   </div>
                 </div>

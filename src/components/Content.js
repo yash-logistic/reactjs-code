@@ -9,6 +9,9 @@ import Progress from "../images/progess.png";
 import Completed from "../images/completed.png";
 import Sort from "../images/Sort.png";
 import { BarChart, Bar, XAxis, Label, Tooltip, Legend } from "recharts";
+import Employee from '../images/employee.png';
+import Star from '../images/star.png';
+import Trophy from '../images/Trophy.png';
 
 const Content = () => {
   const data = [
@@ -263,7 +266,333 @@ const Content = () => {
         </div>
 
         <div className="ml-28">
-          <span>ejrer</span>
+                  
+        <div className="flex-1 flex flex-col items-start justify-start gap-[16px]">
+          <div className="self-stretch flex flex-col items-start justify-start gap-[16px]">
+            <div className="self-stretch flex flex-row items-start justify-between">
+              <div className="w-[408.5px] flex flex-col items-start justify-start gap-[12px]">
+                <div className="relative font-black">People `Overview</div>
+                <div className="flex flex-row items-start justify-start gap-[4px] text-xs">
+                  <div className="rounded-3xl shrink-0 flex flex-row items-center justify-center py-2 px-4 gap-[4px] border-[1px] border-solid border-grey-20">
+                    <img
+                      className="relative rounded-[50%] w-4 h-4 object-cover"
+                      alt="west icon"
+                      src={Demo}
+                    />
+                    <div className="relative">West</div>
+                  </div>
+                  <div className="rounded-3xl bg-black-100 shadow-[0px_4px_6px_rgba(0,_0,_0,_0.08)] shrink-0 flex flex-row items-center justify-center py-2 px-4 gap-[4px] text-white border-[1px] border-solid border-black-100">
+                    <img
+                      className="relative rounded-[50%] w-4 h-4 object-cover"
+                      alt="log icon"
+                      src={Log}
+                    />
+                    <div className="text-black">Log</div>
+                  </div>
+                </div>
+              </div>
+              <div className="rounded-xl bg-white box-border h-8 flex flex-row items-center justify-start py-3 px-4 gap-[8px] text-3xs border-[1px] border-solid border-grey-20">
+                <div className="relative">Last Week</div>
+                <img
+                  className="relative w-2 h-1 object-contain"
+                  alt="arrow icon"
+                  src={Arrow}
+                />
+              </div>
+            </div>
+            <div className="flex flex-row items-start justify-start gap-[16px] text-black-80">
+              <div className="rounded-2xl bg-white shrink-0 flex flex-col items-start justify-start pt-3 px-4 pb-4 gap-[16px]">
+                <div className="self-stretch shrink-0 flex flex-row items-start justify-between py-0 pr-0 pl-2">
+                  <div className="shrink-0 flex flex-row items-center justify-start">
+                    <div className="relative leading-[16px] font-medium">
+                      Employee of the Week
+                    </div>
+                  </div>
+                  <div className="relative text-3xs text-grey-80">
+                    11-18 nov, 2023
+                  </div>
+                </div>
+                <div className="shrink-0 flex flex-row items-center justify-start gap-[8px] text-xs">
+                  <div className="bg-white shrink-0 flex flex-row items-start justify-start">
+                    <div className="rounded-2xl bg-yellow-20 shrink-0 flex flex-col items-start justify-center p-4">
+                      <div className="self-stretch flex flex-col items-start justify-center gap-[8px]">
+                        <div className="rounded-3xl w-[124px] flex flex-col items-start justify-start relative gap-[8px]">
+                          <img
+                            className="relative rounded-13xl w-[65px] h-[65px] object-cover z-[0]"
+                            alt="employee icon"
+                            src={Employee}
+                          />
+                          <div className="self-stretch relative font-medium z-[1]">
+                            Tornike Berdzenishvili
+                          </div>
+                          <img
+                            className="absolute my-0 mx-[!important] top-[48px] left-[50px] rounded-3xl w-4 h-4 overflow-hidden shrink-0 object-cover z-[2]"
+                            alt="trophy icon"
+                            src={Trophy}
+                          />
+                          <div className="w-[120px] flex flex-row items-center justify-start gap-[4px] z-[3] text-grey-100">
+                            <img
+                              className="relative w-3 h-3 overflow-hidden shrink-0 object-cover"
+                              alt="star icon"
+                              src={Star}
+                            />
+                            <div className="relative font-medium">4.6</div>
+                          </div>
+                        </div>
+                        <div className="flex flex-row items-center justify-start gap-[8px] text-5xs">
+                          <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
+                            <b className="relative">West</b>
+                          </div>
+                          <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
+                            <b className="relative">Parking</b>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="self-stretch rounded-2xl shrink-0 flex flex-col items-center justify-center pt-2 px-1 pb-0 gap-[12px]">
+                    <div className="self-stretch flex flex-col items-center justify-start py-0 px-1 gap-[8px]">
+                      <div className="w-32 flex flex-row items-start justify-between py-0 pr-0 pl-1 box-border">
+                        <div className="relative font-medium">Total Jobs</div>
+                        <div className="relative text-sm leading-[16px] font-medium text-grey-100">
+                          50
+                        </div>
+                      </div>
+                      <div className="self-stretch flex flex-col items-start justify-center gap-[4px] text-3xs">
+                        <div className="self-stretch flex flex-row items-center justify-between">
+                          <div className="flex-1 shrink-0 flex flex-row items-center justify-start">
+                            <div className="relative">
+                              <ul className="m-0 font-inherit text-inherit pl-[13px]">
+                                <li>Parking</li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div className="relative text-black-100">250</div>
+                        </div>
+                        <div className="self-stretch flex flex-row items-center justify-start">
+                          <div className="flex-1 shrink-0 flex flex-row items-center justify-start">
+                            <div className="relative">
+                              <ul className="m-0 font-inherit text-inherit pl-[13px]">
+                                <li>Flagging</li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div className="relative text-black-100">250</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="self-stretch rounded-[9px] bg-background flex flex-col items-center justify-start py-2 px-0 gap-[8px] text-grey-80">
+                      <b className="relative">Total Hours</b>
+                      <div className="relative text-13xl font-black text-black-80">
+                        150
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="rounded-2xl bg-white shrink-0 flex flex-col items-start justify-start pt-3 px-4 pb-4 gap-[16px] text-xs">
+                <div className="self-stretch shrink-0 flex flex-row items-start justify-between py-0 px-2 text-sm">
+                  <div className="shrink-0 flex flex-row items-center justify-start">
+                    <div className="relative leading-[16px] font-medium">
+                      Top Requestor
+                    </div>
+                  </div>
+                  <div className="relative text-3xs text-grey-80">
+                    11-18 nov, 2023
+                  </div>
+                </div>
+                <div className="rounded-2xl bg-white shrink-0 flex flex-row items-start justify-center p-4 gap-[16px] border-[1px] border-solid border-grey-10">
+                  <div className="shrink-0 flex flex-col items-start justify-center gap-[8px]">
+                    <div className="rounded-3xl box-border w-[124px] flex flex-col items-start justify-start border-[1px] border-solid border-white">
+                      <div className="self-stretch relative font-medium">
+                        James Brown
+                      </div>
+                    </div>
+                    <div className="shrink-0 flex flex-row items-center justify-start gap-[8px] text-5xs">
+                      <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
+                        <b className="relative">West</b>
+                      </div>
+                      <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
+                        <b className="relative">Flagging</b>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="self-stretch shrink-0 flex flex-col items-center justify-between text-grey-100">
+                    <div className="relative font-medium">Jobs Received</div>
+                    <b className="relative text-5xl text-black-80">50</b>
+                  </div>
+                </div>
+                <div className="rounded-2xl bg-white shrink-0 flex flex-row items-start justify-center p-4 gap-[16px] border-[1px] border-solid border-grey-10">
+                  <div className="shrink-0 flex flex-col items-start justify-center gap-[8px]">
+                    <div className="rounded-3xl box-border w-[124px] flex flex-col items-start justify-start border-[1px] border-solid border-white">
+                      <div className="self-stretch relative font-medium">
+                        Roberto Rodriguez
+                      </div>
+                    </div>
+                    <div className="shrink-0 flex flex-row items-center justify-start gap-[8px] text-5xs">
+                      <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
+                        <b className="relative">West</b>
+                      </div>
+                      <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
+                        <b className="relative">Flagging</b>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="self-stretch shrink-0 flex flex-col items-center justify-between text-grey-100">
+                    <div className="relative font-medium">Jobs Received</div>
+                    <b className="relative text-5xl text-black-80">32</b>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="self-stretch rounded-2xl bg-white flex flex-col items-start justify-start pt-0 px-0 pb-2 text-xs text-black-80">
+            <div className="flex flex-row items-start justify-start py-4 px-6 text-sm">
+              <div className="relative leading-[16px] font-medium">
+                Good Performers
+              </div>
+            </div>
+            <div className="self-stretch [filter:drop-shadow(0px_4px_8px_rgba(141,_141,_141,_0.05))] flex flex-row items-center justify-between py-2 px-6">
+              <div className="shrink-0 flex flex-row items-center justify-start gap-[12px]">
+                <div className="shrink-0 flex flex-row items-center justify-start gap-[8px]">
+                  <img
+                    className="relative rounded-3xl w-4 h-4 overflow-hidden shrink-0 object-cover"
+                    alt="trophy icon"
+                    src={Trophy}
+                  />
+                  <div className="relative font-medium">
+                    Tornike Berdzenishvili
+                  </div>
+                </div>
+                <div className="shrink-0 flex flex-row items-center justify-start gap-[8px] text-5xs">
+                  <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
+                    <b className="relative">West</b>
+                  </div>
+                  <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
+                    <b className="relative">Parking</b>
+                  </div>
+                </div>
+              </div>
+              <div className="w-[301px] shrink-0 flex flex-row items-center justify-end gap-[23px] text-grey-100">
+                <div className="shrink-0 flex flex-row items-start justify-start">
+                  <div className="relative font-medium">66 job</div>
+                </div>
+                <div className="shrink-0 flex flex-row items-start justify-start">
+                  <div className="relative font-medium">356 hrs.</div>
+                </div>
+              </div>
+            </div>
+            <div className="self-stretch flex flex-row items-start justify-start py-1 px-6">
+              <div className="flex-1 relative box-border h-px border-t-[1px] border-solid border-grey-10" />
+            </div>
+            <div className="self-stretch [filter:drop-shadow(0px_4px_8px_rgba(141,_141,_141,_0.05))] flex flex-row items-center justify-between py-2 px-6">
+              <div className="shrink-0 flex flex-row items-center justify-start gap-[12px]">
+                <div className="shrink-0 flex flex-row items-center justify-start gap-[8px]">
+                  <img
+                    className="relative rounded-3xl w-4 h-4 overflow-hidden shrink-0 object-cover"
+                    alt="trophy icon"
+                    src={Trophy}
+                  />
+                  <div className="relative font-medium">Beka Ivanishvili</div>
+                </div>
+                <div className="shrink-0 flex flex-row items-center justify-start gap-[8px] text-5xs">
+                  <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
+                    <b className="relative">West</b>
+                  </div>
+                  <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
+                    <b className="relative">Parking</b>
+                  </div>
+                </div>
+              </div>
+              <div className="w-[301px] shrink-0 flex flex-row items-center justify-end gap-[23px] text-grey-100">
+                <div className="shrink-0 flex flex-row items-start justify-start">
+                  <div className="relative font-medium">66 job</div>
+                </div>
+                <div className="shrink-0 flex flex-row items-start justify-start">
+                  <div className="relative font-medium">356 hrs.</div>
+                </div>
+              </div>
+            </div>
+            <div className="self-stretch flex flex-row items-start justify-start py-1 px-6">
+              <div className="flex-1 relative box-border h-px border-t-[1px] border-solid border-grey-10" />
+            </div>
+            <div className="self-stretch [filter:drop-shadow(0px_4px_8px_rgba(141,_141,_141,_0.05))] flex flex-row items-center justify-between py-2 px-6">
+              <div className="shrink-0 flex flex-row items-center justify-start gap-[12px]">
+                <div className="shrink-0 flex flex-row items-center justify-start">
+                  <div className="relative font-medium">Beka Ivanishvili</div>
+                </div>
+                <div className="shrink-0 flex flex-row items-center justify-start gap-[8px] text-5xs">
+                  <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
+                    <b className="relative">West</b>
+                  </div>
+                  <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
+                    <b className="relative">Parking</b>
+                  </div>
+                </div>
+              </div>
+              <div className="w-[301px] shrink-0 flex flex-row items-center justify-end gap-[23px] text-grey-100">
+                <div className="shrink-0 flex flex-row items-start justify-start">
+                  <div className="relative font-medium">66 job</div>
+                </div>
+                <div className="shrink-0 flex flex-row items-start justify-start">
+                  <div className="relative font-medium">356 hrs.</div>
+                </div>
+              </div>
+            </div>
+            <div className="self-stretch flex flex-row items-start justify-start py-1 px-6">
+              <div className="flex-1 relative box-border h-px border-t-[1px] border-solid border-grey-10" />
+            </div>
+            <div className="self-stretch [filter:drop-shadow(0px_4px_8px_rgba(141,_141,_141,_0.05))] flex flex-row items-center justify-between py-2 px-6">
+              <div className="shrink-0 flex flex-row items-center justify-start gap-[12px]">
+                <div className="shrink-0 flex flex-row items-center justify-start">
+                  <div className="relative font-medium">Beka Ivanishvili</div>
+                </div>
+                <div className="shrink-0 flex flex-row items-center justify-start gap-[8px] text-5xs">
+                  <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
+                    <b className="relative">West</b>
+                  </div>
+                  <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
+                    <b className="relative">Parking</b>
+                  </div>
+                </div>
+              </div>
+              <div className="w-[301px] shrink-0 flex flex-row items-center justify-end gap-[23px] text-grey-100">
+                <div className="shrink-0 flex flex-row items-start justify-start">
+                  <div className="relative font-medium">66 job</div>
+                </div>
+                <div className="shrink-0 flex flex-row items-start justify-start">
+                  <div className="relative font-medium">356 hrs.</div>
+                </div>
+              </div>
+            </div>
+            <div className="self-stretch flex flex-row items-start justify-start py-1 px-6">
+              <div className="flex-1 relative box-border h-px border-t-[1px] border-solid border-grey-10" />
+            </div>
+            <div className="self-stretch [filter:drop-shadow(0px_4px_8px_rgba(141,_141,_141,_0.05))] flex flex-row items-center justify-between py-2 px-6">
+              <div className="shrink-0 flex flex-row items-center justify-start gap-[12px]">
+                <div className="shrink-0 flex flex-row items-center justify-start">
+                  <div className="relative font-medium">Beka Ivanishvili</div>
+                </div>
+                <div className="shrink-0 flex flex-row items-center justify-start gap-[8px] text-5xs">
+                  <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
+                    <b className="relative">West</b>
+                  </div>
+                  <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
+                    <b className="relative">Parking</b>
+                  </div>
+                </div>
+              </div>
+              <div className="w-[301px] shrink-0 flex flex-row items-center justify-end gap-[23px] text-grey-100">
+                <div className="shrink-0 flex flex-row items-start justify-start">
+                  <div className="relative font-medium">66 job</div>
+                </div>
+                <div className="shrink-0 flex flex-row items-start justify-start">
+                  <div className="relative font-medium">356 hrs.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         </div>
       </div>
     </>

@@ -129,7 +129,7 @@ const Content = () => {
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center py-0 px-1 text-base">
-                  <b className="ml-12">250</b>
+                  <span className="ml-12">250</span>
                 </div>
               </div>
 
@@ -145,7 +145,7 @@ const Content = () => {
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center py-0 px-1 text-base">
-                  <b className="ml-12">3</b>
+                  <span className="ml-12">3</span>
                 </div>
               </div>
             </div>
@@ -340,10 +340,10 @@ const Content = () => {
                           </div>
                           <div className="flex flex-row items-center justify-start gap-[8px] text-5xs">
                             <div  className="rounded-3xl cgy shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
-                              <b className="relative">West</b>
+                              <span className="relative">West</span>
                             </div>
                             <div className="rounded-3xl cgy  shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
-                              <b className="relative">Parking</b>
+                              <span className="relative">Parking</span>
                             </div>
                           </div>
                         </div>
@@ -381,7 +381,7 @@ const Content = () => {
                         </div>
                       </div>
                       <div className="self-stretch rounded-[9px] bg-background flex flex-col items-center justify-start py-2 px-0 gap-[8px] text-grey-80">
-                        <b className="relative">Total Hours</b>
+                        <span className="relative">Total Hours</span>
                         <div className="relative text-13xl font-black text-black-80">
                           150
                         </div>
@@ -410,16 +410,16 @@ const Content = () => {
                       </div>
                       <div className="shrink-0 flex flex-row items-center justify-start gap-[8px] text-5xs">
                         <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
-                          <b className="relative">West</b>
+                          <span className="relative">West</span>
                         </div>
                         <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
-                          <b className="relative">Flagging</b>
+                          <span className="relative">Flagging</span>
                         </div>
                       </div>
                     </div>
                     <div className="self-stretch shrink-0 flex flex-col items-center justify-between text-grey-100">
                       <div className="relative font-medium">Jobs Received</div>
-                      <b className="relative text-5xl text-black-80">50</b>
+                      <span className="relative text-5xl text-black-80">50</span>
                     </div>
                   </div>
                   <div className="rounded-2xl bg-white shrink-0 flex flex-row items-start justify-center p-4 gap-[16px] border-[1px] border-solid border-grey-10">
@@ -431,16 +431,16 @@ const Content = () => {
                       </div>
                       <div className="shrink-0 flex flex-row items-center justify-start gap-[8px] text-5xs">
                         <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
-                          <b className="relative">West</b>
+                          <span className="relative">West</span>
                         </div>
                         <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
-                          <b className="relative">Flagging</b>
+                          <span className="relative">Flagging</span>
                         </div>
                       </div>
                     </div>
                     <div className="self-stretch shrink-0 flex flex-col items-center justify-between text-grey-100">
                       <div className="relative font-medium">Jobs Received</div>
-                      <b className="relative text-5xl text-black-80">32</b>
+                      <span className="relative text-5xl text-black-80">32</span>
                     </div>
                   </div>
                 </div>
@@ -466,10 +466,10 @@ const Content = () => {
                   </div>
                   <div className="shrink-0 flex flex-row items-center justify-start gap-[8px] text-5xs">
                     <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
-                      <b className="relative">West</b>
+                      <span className="relative">West</span>
                     </div>
                     <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
-                      <b className="relative">Parking</b>
+                      <span className="relative">Parking</span>
                     </div>
                   </div>
                 </div>
@@ -497,36 +497,10 @@ const Content = () => {
                   </div>
                   <div className="shrink-0 flex flex-row items-center justify-start gap-[8px] text-5xs">
                     <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
-                      <b className="relative">West</b>
+                      <span className="relative">West</span>
                     </div>
                     <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
-                      <b className="relative">Parking</b>
-                    </div>
-                  </div>
-                </div>
-                <div className="w-[301px] shrink-0 flex flex-row items-center justify-end gap-[23px] text-grey-100">
-                  <div className="shrink-0 flex flex-row items-start justify-start">
-                    <div className="relative font-medium">66 job</div>
-                  </div>
-                  <div className="shrink-0 flex flex-row items-start justify-start">
-                    <div className="relative font-medium">356 hrs.</div>
-                  </div>
-                </div>
-              </div>
-              <div className="self-stretch flex flex-row items-start justify-start py-1 px-6">
-                <div className="flex-1 relative box-border h-px border-t-[1px] border-solid border-grey-10" />
-              </div>
-              <div className="self-stretch [filter:drop-shadow(0px_4px_8px_rgba(141,_141,_141,_0.05))] flex flex-row items-center justify-between py-2 px-6">
-                <div className="shrink-0 flex flex-row items-center justify-start gap-[12px]">
-                  <div className="shrink-0 flex flex-row items-center justify-start">
-                    <div className="relative font-medium">Beka Ivanishvili</div>
-                  </div>
-                  <div className="shrink-0 flex flex-row items-center justify-start gap-[8px] text-5xs">
-                    <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
-                      <b className="relative">West</b>
-                    </div>
-                    <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
-                      <b className="relative">Parking</b>
+                      <span className="relative">Parking</span>
                     </div>
                   </div>
                 </div>
@@ -549,10 +523,10 @@ const Content = () => {
                   </div>
                   <div className="shrink-0 flex flex-row items-center justify-start gap-[8px] text-5xs">
                     <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
-                      <b className="relative">West</b>
+                      <span className="relative">West</span>
                     </div>
                     <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
-                      <b className="relative">Parking</b>
+                      <span className="relative">Parking</span>
                     </div>
                   </div>
                 </div>
@@ -575,10 +549,36 @@ const Content = () => {
                   </div>
                   <div className="shrink-0 flex flex-row items-center justify-start gap-[8px] text-5xs">
                     <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
-                      <b className="relative">West</b>
+                      <span className="relative">West</span>
                     </div>
                     <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
-                      <b className="relative">Parking</b>
+                      <span className="relative">Parking</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="w-[301px] shrink-0 flex flex-row items-center justify-end gap-[23px] text-grey-100">
+                  <div className="shrink-0 flex flex-row items-start justify-start">
+                    <div className="relative font-medium">66 job</div>
+                  </div>
+                  <div className="shrink-0 flex flex-row items-start justify-start">
+                    <div className="relative font-medium">356 hrs.</div>
+                  </div>
+                </div>
+              </div>
+              <div className="self-stretch flex flex-row items-start justify-start py-1 px-6">
+                <div className="flex-1 relative box-border h-px border-t-[1px] border-solid border-grey-10" />
+              </div>
+              <div className="self-stretch [filter:drop-shadow(0px_4px_8px_rgba(141,_141,_141,_0.05))] flex flex-row items-center justify-between py-2 px-6">
+                <div className="shrink-0 flex flex-row items-center justify-start gap-[12px]">
+                  <div className="shrink-0 flex flex-row items-center justify-start">
+                    <div className="relative font-medium">Beka Ivanishvili</div>
+                  </div>
+                  <div className="shrink-0 flex flex-row items-center justify-start gap-[8px] text-5xs">
+                    <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
+                      <span className="relative">West</span>
+                    </div>
+                    <div className="rounded-3xl bg-grey-10 shrink-0 flex flex-row items-center justify-center py-1 px-2 border-[1px] border-solid border-grey-10">
+                      <span className="relative">Parking</span>
                     </div>
                   </div>
                 </div>
